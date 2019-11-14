@@ -201,7 +201,7 @@ export function extend(defaults: { [key: string]: any }, updates: { [key: string
 }
 
 async function main() {
-  let dataUrl = 'https://twofactorauth.org/data.json';
+  let dataUrl = 'https://twofactorauth.org/api/v1/data.json';
 
   try {
     let res = await fetch(dataUrl);
